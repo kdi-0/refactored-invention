@@ -1,4 +1,3 @@
-<!-- src/routes/RankWidget.svelte -->
 <script lang="ts">
   export let rank_tier: string;
   export let rank_division: string;
