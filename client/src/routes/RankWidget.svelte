@@ -25,7 +25,7 @@
 <style>
   .rank-container {
     display: flex;
-    flex-direction: row; /* Change here */
+    flex-direction: row;
     align-items: center;
     background-color: #ffffff93;
     padding: 1rem;
@@ -40,6 +40,6 @@
 
   .details {
     margin-left: 1rem; /* Added to give some spacing between the emblem and details */
-    text-align: left; /* Change to left */
+    text-align: left;
   }
 </style>
