@@ -18,11 +18,6 @@ if __name__ == "__main__":
     # write to file in formatted form
     with open("lol-gameflow_v1_session.json", "a") as f:
         f.write(json.dumps(res.json(), indent=4))
-
-    gameId = 4804424069
-    res = lcu("GET", f"/lol-match-history/v1/games/{gameId}")
-    with open("lol-match-history_v1_games_gameId.json", "a") as f:
-        f.write(json.dumps(res.json(), indent=4))
     
     res = lcu("GET", "/lol-game-queues/v1/queues")
     with open("lol-game-queues_v1_queues.json", "a") as f:
